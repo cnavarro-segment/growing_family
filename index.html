@@ -2,15 +2,42 @@
 <html lang="en">
 <head>
 
-    <title>Blog Home Page</title>
+  <title>Growing Family Blog</title>
     <style>
-        .article-card {
-            border: 1px solid #000;
-            margin: 10px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
             padding: 10px;
+            text-align: center;
+        }
+        .article-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        .article-card h2 {
+            color: #333;
         }
         .article-card button {
-            margin-top: 10px;
+            background-color: #5CDB95;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .article-card button:hover {
+            background-color: #379683;
         }
     </style>
 
@@ -84,17 +111,20 @@ float: right;
   <body>
     
   <h1>Ralph's Simple Site</h1>
-     <div class="article-card">
+     <div class="header">
+        <h1>Growing Family Blog</h1>
+    </div>
+    <div class="article-card">
         <h2>Article Title 1</h2>
         <p>Article summary...</p>
         <button type="button">Like</button>
-        <button type="button" onclick="window.location.href='article1.html'">Read</button>
+        <button type="button" onclick="window.location.href='article1.html'">Read More</button>
     </div>
     <div class="article-card">
         <h2>Article Title 2</h2>
         <p>Article summary...</p>
         <button type="button">Like</button>
-        <button type="button" onclick="window.location.href='article2.html'">Read</button>
+        <button type="button" onclick="window.location.href='article2.html'">Read More</button>
     </div>
 
 
