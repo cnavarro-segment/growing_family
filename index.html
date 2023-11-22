@@ -49,6 +49,49 @@
             background-color: #379683;
         }
     </style>
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .forms {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .forms h3 {
+        color: #333;
+        text-align: center;
+    }
+    .forms label {
+        margin-bottom: 5px;
+        display: block;
+    }
+    .forms input[type="text"] {
+        margin-bottom: 15px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .forms input[type="submit"] {
+        background-color: #5CDB95;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .forms input[type="submit"]:hover {
+        background-color: #379683;
+    }
+</style>
   
   <style>
 
@@ -126,27 +169,27 @@ float: right;
 
 
 <main>
-<div class="forms" style="width: 300px; margin: 0 auto; font-family: Arial, sans-serif;">
-    <h3 style="text-align: center; color: #4a4a4a;">Registration</h3>  
-    <form id="registration-form" style="display: flex; flex-direction: column;">
-        <label for="reg_fname" style="margin-bottom: 5px;">First Name</label>
-        <input type="text" id="reg_fname" name="reg_firstname" placeholder="First" style="margin-bottom: 15px; padding: 10px;">
+<div class="forms">
+    <h3>Registration</h3>  
+    <form id="registration-form">
+        <label for="reg_fname">First Name</label>
+        <input type="text" id="reg_fname" name="reg_firstname" placeholder="First">
 
-        <label for="reg_flname" style="margin-bottom: 5px;">Last Name</label>   
-        <input type="text" id="reg_lname" name="reg_lastname" placeholder="Last" style="margin-bottom: 15px; padding: 10px;">
+        <label for="reg_flname">Last Name</label>   
+        <input type="text" id="reg_lname" name="reg_lastname" placeholder="Last">
 
-        <label for="reg_email" style="margin-bottom: 5px;">Email</label>   
-        <input type="text" id="reg_email" name="reg_email" placeholder="Email" style="margin-bottom: 15px; padding: 10px;">
+        <label for="reg_email">Email</label>   
+        <input type="text" id="reg_email" name="reg_email" placeholder="Email">
 
-        <label for="reg_phone" style="margin-bottom: 5px;">Phone</label>   
-        <input type="text" id="reg_phone" name="reg_phone" placeholder="Phone" style="margin-bottom: 15px; padding: 10px;">
+        <label for="reg_phone">Phone</label>   
+        <input type="text" id="reg_phone" name="reg_phone" placeholder="Phone">
 
-        <label for="reg_user_id" style="margin-bottom: 5px;">User Id</label>   
-        <input type="text" id="reg_user_id" name="reg_user_id" placeholder="user_id" style="margin-bottom: 15px; padding: 10px;">
+        <label for="reg_user_id">User Id</label>   
+        <input type="text" id="reg_user_id" name="reg_user_id" placeholder="user_id">
 
-        <input type="submit" class="btn" value="Submit" style="cursor: pointer; padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px;">
+        <input type="submit" class="btn" value="Submit">
     </form>
-</div>
+</
 
            <br>  
            <br>
