@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <title>Blog Home Page</title>
+    <style>
+        .article-card {
+            border: 1px solid #000;
+            margin: 10px;
+            padding: 10px;
+        }
+        .article-card button {
+            margin-top: 10px;
+        }
+    </style>
+
+
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,7 +84,18 @@ float: right;
   <body>
     
   <h1>Ralph's Simple Site</h1>
-    
+     <div class="article-card">
+        <h2>Article Title 1</h2>
+        <p>Article summary...</p>
+        <button type="button">Like</button>
+        <button type="button" onclick="window.location.href='article1.html'">Read</button>
+    </div>
+    <div class="article-card">
+        <h2>Article Title 2</h2>
+        <p>Article summary...</p>
+        <button type="button">Like</button>
+        <button type="button" onclick="window.location.href='article2.html'">Read</button>
+    </div>
 
 
 <main>
