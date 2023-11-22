@@ -301,53 +301,8 @@ analytics.track("Product Info Requested", {
        );
         }  
       
-      </script>
       
 </main>
-<rside>
-<h3> Registration</h3>
-<p>
-analytics.identify(reg_user_id.value, { <br>
-     fname: reg_fname.value,  <br>
-     lname: reg_lname.value,  <br>
-     phone: reg_phone.value,  <br>
-     email: reg_email.value,   <br>
-  name: reg_fname.value + ' ' + reg_lname.value <br>
-});   <br>
-</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h3>Product Info Request </h3>
-analytics.track("Product Info Requested", { <br>
-        product: product_product.value,<br>
-        role: product_role.value,<br>
-  "context": {<br>
-    "traits" : {<br>
-      "email": product_email.value<br>
-    }<br>
-  }<br>
-});<br>
-<br>
-<br>
-<h3>TrialRequest </h3>
- analytics.track("Trial Request", {<br>
-trial_product: trial_product.value,<br>
-trial_start_date: trial_start_date.value,<br>
-          trial_request_date: today,<br>
-         "context": {<br>
-    "traits" : {<br>
-       trial_contact: trial_contact.value,<br>
-      email: trial_email.value<br>
-     }<br>
-  }<br>
- });<br>
-
-</rside>
 
 
     </body>
